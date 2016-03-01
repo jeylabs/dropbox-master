@@ -1,0 +1,39 @@
+{
+  "name": "jeylabs/dropbox-master",
+  "type": "library",
+  "description": "Dropbox File Upload",
+  "keywords": [
+    "routing",
+    "not-found",
+    "redirection"
+  ],
+  "homepage": "http://smart-route.apps.jeylabs.com",
+  "support": {
+    "issues": "https://github.com/jeylabs/dropbox-master/issues",
+    "source": "https://github.com/jeylabs/dropbox-master"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jana and Dilak",
+      "email": "jana.ceymplon@jeylabs.com",
+      "homepage": "http://jeylabs.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0|~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jeylabs\\DropboxMaster\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
